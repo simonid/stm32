@@ -1,0 +1,5 @@
+--cpu Cortex-M3 "startup_stm32f10x_md.o" "stm32f10x_it.o" "system_stm32f10x.o" "main.o" "core_cm3.o" "misc.o" "stm32f10x_adc.o" "stm32f10x_dma.o" "stm32f10x_exti.o" "stm32f10x_gpio.o" "stm32f10x_i2c.o" "stm32f10x_rcc.o" "stm32f10x_sdio.o" "stm32f10x_tim.o" "stm32f10x_usart.o" "stm32f10x_pwr.o" "stm32f10x_bkp.o" "sys.o" "temdma.o" "delay.o" "usart.o" 
+--strict --scatter "temp_DMA.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\temp_DMA.map" -o temp_DMA.axf
